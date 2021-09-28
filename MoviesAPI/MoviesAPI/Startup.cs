@@ -14,6 +14,8 @@ using Microsoft.OpenApi.Models;
 using MoviesAPI.APIBehavior;
 using MoviesAPI.Filters;
 using MoviesAPI.Helpers;
+using NetTopologySuite;
+using NetTopologySuite.Geometries;
 //using NetTopologySuite;
 //using NetTopologySuite.Geometries;
 using System;
@@ -37,10 +39,15 @@ namespace MoviesAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"),
+            x => x.UseNetTopologySuite()
+           )); 
+      
             services.AddHttpContextAccessor();
             services.AddAutoMapper(typeof(Startup));
-            services.AddControllers(options =>
+            services.AddScoped<IFileStorageService, InAppStorageService>();
+            services.AddHttpContextAccessor();
+            services.AddControllers(options =>  
             {
                 options.Filters.Add(typeof(MyExceptionFilter));
                 options.Filters.Add(typeof(ParseBadRequest));
@@ -63,6 +70,7 @@ namespace MoviesAPI
                     .WithExposedHeaders(new string[] { "totalAmountOfRecords" }); 
                 });
             });
+            services.AddSingleton<GeometryFactory>(NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,11 +1,70 @@
 {
   "Version": 1,
-  "Hash": "RGOnVuaUuhzxy+DBbGSsQRVU71P5/wPQJlSJhlhFJ8A=",
+  "Hash": "FSUJrIsawleggHLkBkI00Qe2vbyvCVatzlH0/0kjB5g=",
   "Source": "MoviesAPI",
   "BasePath": "_content/MoviesAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "RelatedManifests": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "MoviesAPI\\wwwroot",
+      "ContentRoot": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\wwwroot\\",
+      "BasePath": "_content/MoviesAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\wwwroot\\actors\\3f06b944-144a-415d-bbbf-093e47e39c29.png",
+      "SourceId": "MoviesAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\wwwroot\\",
+      "BasePath": "_content/MoviesAPI",
+      "RelativePath": "actors/3f06b944-144a-415d-bbbf-093e47e39c29.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actors\\3f06b944-144a-415d-bbbf-093e47e39c29.png"
+    },
+    {
+      "Identity": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\wwwroot\\actors\\a12dde82-5b69-474b-8847-1483fbcbe4f7.png",
+      "SourceId": "MoviesAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\wwwroot\\",
+      "BasePath": "_content/MoviesAPI",
+      "RelativePath": "actors/a12dde82-5b69-474b-8847-1483fbcbe4f7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actors\\a12dde82-5b69-474b-8847-1483fbcbe4f7.png"
+    },
+    {
+      "Identity": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\wwwroot\\actors\\af5435b6-2fa4-42da-8cfc-fcf19df56193.png",
+      "SourceId": "MoviesAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\wwwroot\\",
+      "BasePath": "_content/MoviesAPI",
+      "RelativePath": "actors/af5435b6-2fa4-42da-8cfc-fcf19df56193.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actors\\af5435b6-2fa4-42da-8cfc-fcf19df56193.png"
+    }
+  ]
 }

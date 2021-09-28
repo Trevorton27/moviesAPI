@@ -1,8 +1,47 @@
 {
-  "ContentRoots": [],
+  "ContentRoots": [
+    "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\wwwroot\\"
+  ],
   "Root": {
-    "Children": null,
+    "Children": {
+      "actors": {
+        "Children": {
+          "3f06b944-144a-415d-bbbf-093e47e39c29.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\3f06b944-144a-415d-bbbf-093e47e39c29.png"
+            },
+            "Patterns": null
+          },
+          "a12dde82-5b69-474b-8847-1483fbcbe4f7.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\a12dde82-5b69-474b-8847-1483fbcbe4f7.png"
+            },
+            "Patterns": null
+          },
+          "af5435b6-2fa4-42da-8cfc-fcf19df56193.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\af5435b6-2fa4-42da-8cfc-fcf19df56193.png"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
     "Asset": null,
-    "Patterns": null
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
   }
 }

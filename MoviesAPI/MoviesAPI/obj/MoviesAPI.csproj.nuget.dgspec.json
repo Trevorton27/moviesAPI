@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spira\\source\\repos\\reactEfDotNetTutorial\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj": {}
+    "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spira\\source\\repos\\reactEfDotNetTutorial\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj": {
+    "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spira\\source\\repos\\reactEfDotNetTutorial\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
         "projectName": "MoviesAPI",
-        "projectPath": "C:\\Users\\spira\\source\\repos\\reactEfDotNetTutorial\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
+        "projectPath": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
         "packagesPath": "C:\\Users\\spira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spira\\source\\repos\\reactEfDotNetTutorial\\MoviesAPI\\MoviesAPI\\obj\\",
+        "outputPath": "C:\\Users\\spira\\OneDrive\\Documents\\software-development-mastery-course\\C#\\moviesAPI\\moviesAPI\\MoviesAPI\\MoviesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,21 +46,29 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[6.0.0-rc.1.21452.15, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[6.0.0-rc.1.21452.10, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[6.0.0-rc.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": {
+              "target": "Package",
+              "version": "[6.0.0-rc.1, )"
+            },
+            "Npgsql.NetTopologySuite": {
+              "target": "Package",
+              "version": "[6.0.0-rc.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.1.5, )"
+              "version": "[6.2.2, )"
             }
           },
           "imports": [

@@ -13,8 +13,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MoviesAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210928105708_returnedPoint")]
-    partial class returnedPoint
+    [Migration("20211001021445_reconfiguredPostgis")]
+    partial class reconfiguredPostgis
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,6 +23,7 @@ namespace MoviesAPI.Migrations
                 .HasAnnotation("ProductVersion", "6.0.0-rc.1.21452.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
+            NpgsqlModelBuilderExtensions.HasPostgresExtension(modelBuilder, "postgis");
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
             modelBuilder.Entity("MoviesAPI.Entities.Actor", b =>
@@ -80,9 +81,9 @@ namespace MoviesAPI.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<Point>("Geometry")
+                    b.Property<Point>("Location")
                         .IsRequired()
-                        .HasColumnType("geometry");
+                        .HasColumnType("geometry (point)");
 
                     b.Property<string>("Name")
                         .IsRequired()

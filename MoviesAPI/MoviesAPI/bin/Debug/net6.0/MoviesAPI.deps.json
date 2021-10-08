@@ -10,7 +10,9 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0-rc.1.21452.15",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.0-rc.1.21452.10",
+          "Newtonsoft.Json": "13.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0-rc.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "6.0.0-rc.1",
           "Npgsql.NetTopologySuite": "6.0.0-rc.1",
@@ -61,6 +63,24 @@
           "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.45215"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/5.0.10": {},
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "5.0.10"
+        }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/5.0.10": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0-rc.1.21452.10",
+          "Microsoft.Extensions.Identity.Stores": "5.0.10"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "5.0.10.0",
+            "fileVersion": "5.0.1021.41022"
           }
         }
       },
@@ -176,6 +196,20 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.45113"
           }
+        }
+      },
+      "Microsoft.Extensions.Identity.Core/5.0.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "5.0.10",
+          "Microsoft.Extensions.Logging": "6.0.0-rc.1.21451.13",
+          "Microsoft.Extensions.Options": "6.0.0-rc.1.21451.13"
+        }
+      },
+      "Microsoft.Extensions.Identity.Stores/5.0.10": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0-rc.1.21451.13",
+          "Microsoft.Extensions.Identity.Core": "5.0.10",
+          "Microsoft.Extensions.Logging": "6.0.0-rc.1.21451.13"
         }
       },
       "Microsoft.Extensions.Logging/6.0.0-rc.1.21451.13": {
@@ -311,6 +345,14 @@
           "lib/netstandard2.1/NetTopologySuite.IO.PostGis.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
           }
         }
       },
@@ -483,6 +525,27 @@
       "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.0-rc.1.21452.15",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.0-rc.1.21452.15.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Cryptography.Internal/5.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xqdkq+lsWeVBxGq0bwgQeT1inqdFErG/McEBNqFVw0hnNQKxWaGPuBDFc8JBQC82Qn6+V1utI3lWvFmUMGEc8Q==",
+      "path": "microsoft.aspnetcore.cryptography.internal/5.0.10",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.5.0.10.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iXsPFNrM6cVGx/zCkz88nDP/pUKn/ni13B6JQhLwOoqI+tsA1x6fVfPp0MKnQtx5AZngGzuNMx+AYR1ED9ZVeg==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/5.0.10",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.5.0.10.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/5.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L9Tavjj82A9Ybo6Uedxu5CDie7DXXjx5tXLy3P0Ade2LXcrQwC4bJcdj8+QvBHqMnsd9ZsGZfO/T6tqxTYpAJg==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/5.0.10",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.5.0.10.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -574,6 +637,20 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0-rc.1.21451.13",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0-rc.1.21451.13.nupkg.sha512"
     },
+    "Microsoft.Extensions.Identity.Core/5.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WKl22APvpTy+wIqvUd1Gvp8FOs7nTHCZDMeMNNC6fDVfzVKWQF55vOJXbkw7dU70sC6GewE/zsqmwyJAHXgDJw==",
+      "path": "microsoft.extensions.identity.core/5.0.10",
+      "hashPath": "microsoft.extensions.identity.core.5.0.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Identity.Stores/5.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fZDlK8G+jzV9ld0jiO2eQ5JQbOmpiND92gX7bP6rcTZ7YJHzIxCw7Hx8+yf4Ex9f6q7v2LJymkmsUz1k7o5nPg==",
+      "path": "microsoft.extensions.identity.stores/5.0.10",
+      "hashPath": "microsoft.extensions.identity.stores.5.0.10.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/6.0.0-rc.1.21451.13": {
       "type": "package",
       "serviceable": true,
@@ -657,6 +734,13 @@
       "sha512": "sha512-3W8XTFz8iP6GQ5jDXK1/LANHiU+988k1kmmuPWNKcJLpmSg6CvFpbTpz+s4+LBzkAp64wHGOldSlkSuzYfrIKA==",
       "path": "nettopologysuite.io.postgis/2.1.0",
       "hashPath": "nettopologysuite.io.postgis.2.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "Npgsql/6.0.0-rc.1": {
       "type": "package",

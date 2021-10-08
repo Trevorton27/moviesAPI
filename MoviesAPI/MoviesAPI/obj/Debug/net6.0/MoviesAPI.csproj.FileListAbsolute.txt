@@ -107,3 +107,5 @@ C:\Users\spira\OneDrive\Documents\software-development-mastery-course\C#\moviesA
 C:\Users\spira\OneDrive\Documents\software-development-mastery-course\C#\moviesAPI\moviesAPI\MoviesAPI\MoviesAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\spira\OneDrive\Documents\software-development-mastery-course\C#\moviesAPI\moviesAPI\MoviesAPI\MoviesAPI\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\spira\OneDrive\Documents\software-development-mastery-course\C#\moviesAPI\moviesAPI\MoviesAPI\MoviesAPI\obj\Debug\net6.0\EFCoreNpgsqlNetTopologySuite.cs
+C:\Users\spira\OneDrive\Documents\software-development-mastery-course\C#\moviesAPI\moviesAPI\MoviesAPI\MoviesAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\spira\OneDrive\Documents\software-development-mastery-course\C#\moviesAPI\moviesAPI\MoviesAPI\MoviesAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

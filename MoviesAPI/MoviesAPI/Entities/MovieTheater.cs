@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using NpgsqlTypes;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MoviesAPI.Entities;
 
@@ -15,6 +16,7 @@ namespace MoviesAPI.Entities;
         [Required]
         [StringLength(maximumLength: 75)]
         public string Name { get; set; }
-        public Point Geometry  { get; set; }
+    [Column(TypeName = "geometry (point)")]
+    public Point Location  { get; set; }
     }
 

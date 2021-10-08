@@ -7,10 +7,13 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace MoviesAPI.Migrations
 {
-    public partial class returnedPoint : Migration
+    public partial class reconfiguredPostgis : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.AlterDatabase()
+                .Annotation("Npgsql:PostgresExtension:postgis", ",,");
+
             migrationBuilder.CreateTable(
                 name: "Actors",
                 columns: table => new
@@ -47,7 +50,7 @@ namespace MoviesAPI.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Name = table.Column<string>(type: "character varying(75)", maxLength: 75, nullable: false),
-                    Geometry = table.Column<Point>(type: "geometry", nullable: false)
+                    Location = table.Column<Point>(type: "geometry (point)", nullable: false)
                 },
                 constraints: table =>
                 {

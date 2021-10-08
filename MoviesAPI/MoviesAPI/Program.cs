@@ -21,6 +21,7 @@ namespace MoviesAPI
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
                     webBuilder.UseStartup<Startup>();
                 });
     }

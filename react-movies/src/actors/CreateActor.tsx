@@ -26,7 +26,7 @@ export default function CreateActor(){
         }
         catch (error: any){
             if (error && error.response){
-                console.log(error.response.data)
+                console.log('error: ', error.response.data)
                 setErrors(error.response.data);
             }
         }

@@ -6,11 +6,75 @@
     "Children": {
       "actors": {
         "Children": {
+          "1f9db200-a032-43a3-b279-fd8ae35f5435.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\1f9db200-a032-43a3-b279-fd8ae35f5435.png"
+            },
+            "Patterns": null
+          },
+          "3217b311-a8ca-416f-8298-f554646f56c0.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\3217b311-a8ca-416f-8298-f554646f56c0.png"
+            },
+            "Patterns": null
+          },
           "3f06b944-144a-415d-bbbf-093e47e39c29.png": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
               "SubPath": "actors\\3f06b944-144a-415d-bbbf-093e47e39c29.png"
+            },
+            "Patterns": null
+          },
+          "43e908d6-d29e-4665-a8b1-d5e3e39aa34c.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\43e908d6-d29e-4665-a8b1-d5e3e39aa34c.png"
+            },
+            "Patterns": null
+          },
+          "4731353a-f06f-4265-a426-b5eead6de92f.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\4731353a-f06f-4265-a426-b5eead6de92f.png"
+            },
+            "Patterns": null
+          },
+          "61276ea4-ec99-4b2d-82cd-301e09012d4c.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\61276ea4-ec99-4b2d-82cd-301e09012d4c.png"
+            },
+            "Patterns": null
+          },
+          "6d5dbd1a-7f1a-48b2-8883-4f3ed800c654.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\6d5dbd1a-7f1a-48b2-8883-4f3ed800c654.png"
+            },
+            "Patterns": null
+          },
+          "6d6c3930-05b0-4bdd-895a-e00acc8448f0.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\6d6c3930-05b0-4bdd-895a-e00acc8448f0.png"
+            },
+            "Patterns": null
+          },
+          "6d889b60-51cc-4102-a7ac-3d8e818bea4b.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\6d889b60-51cc-4102-a7ac-3d8e818bea4b.png"
             },
             "Patterns": null
           },
@@ -27,6 +91,68 @@
             "Asset": {
               "ContentRootIndex": 0,
               "SubPath": "actors\\af5435b6-2fa4-42da-8cfc-fcf19df56193.png"
+            },
+            "Patterns": null
+          },
+          "b87f0086-f70e-44f5-af3c-42eb81c31c5a.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "actors\\b87f0086-f70e-44f5-af3c-42eb81c31c5a.png"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      },
+      "movies": {
+        "Children": {
+          "28fb049c-9447-4629-ad88-f5e426e92709.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "movies\\28fb049c-9447-4629-ad88-f5e426e92709.png"
+            },
+            "Patterns": null
+          },
+          "649b0268-e56f-4268-969d-633e06948823.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "movies\\649b0268-e56f-4268-969d-633e06948823.png"
+            },
+            "Patterns": null
+          },
+          "739cd0e9-1df6-44d0-ae17-f06369f68ec8.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "movies\\739cd0e9-1df6-44d0-ae17-f06369f68ec8.png"
+            },
+            "Patterns": null
+          },
+          "a037f50e-1b9d-4556-8b00-f2f05fe316ff.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "movies\\a037f50e-1b9d-4556-8b00-f2f05fe316ff.png"
+            },
+            "Patterns": null
+          },
+          "d55235ad-185f-4eb1-b641-675f980b3c43.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "movies\\d55235ad-185f-4eb1-b641-675f980b3c43.png"
+            },
+            "Patterns": null
+          },
+          "d9791efd-0151-4c55-92c9-5d4247ef15e5.png": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "movies\\d9791efd-0151-4c55-92c9-5d4247ef15e5.png"
             },
             "Patterns": null
           }
